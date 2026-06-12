@@ -8,7 +8,7 @@ At the core of the software is a state machine that manages each phase of flight
 This project reflects a combination of mechanical design, embedded systems, and software engineering, developed collaboratively in preparation for competitive rocketry events.
 
 
-#PID Control Loop
+# PID Control Loop
 The PID control loop is responsible for adjusting the orientation of the motor mount based on the current orientation of the rocket and the desired orientation. The TVC system uses two separate PID control loops, one for the orientation in the x-direction and one for the orientation in the y-direction.
 
 Each PID control loop has three components:
