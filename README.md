@@ -14,6 +14,8 @@ The PID control loop is responsible for adjusting the orientation of the motor m
 Each PID control loop has three components:
 
 Proportional: The proportional component adjusts the orientation of the rocket based on the difference between the current orientation and the desired orientation.
+
 Integral: The integral component adjusts the orientation of the rocket based on the cumulative error between the current orientation and the desired orientation.
+
 Derivative: The derivative component adjusts the orientation of the rocket based on the rate of change of the error between the current orientation and the desired orientation.
 By using two separate PID control loops, the TVC system is able to independently adjust the orientation of the rocket in both the x-direction and the y-direction, by using two servos which gimbal the motor mount.
